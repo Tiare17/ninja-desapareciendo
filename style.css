@@ -1,0 +1,21 @@
+body {
+    width: 1000px;
+    display: inline-block;
+}
+
+.texto {
+    text-align: center;
+}
+
+#boton {
+    background: rgb(148, 12, 12);
+    color: white;
+    font-size: medium;
+    width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+img {
+    margin-right: 5px;
+}
