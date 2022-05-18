@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device__width, initial__scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<link rel="icon" href="./ninja.jpg">
+		<link rel="stylesheet" type="text/css" href="./style.css">
+		<title>Ninja Desapareciendo</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('img').click(function(){
+					$(this,'img').fadeOut(1000);
+				});
+				$('#boton').click(function(){
+					$('img').show();
+				})
+			});
+		</script>
+  </head>
+	<body>
+		<div class="texto">
+			<h1>Ninja desapareciendo</h1>
+			<p>(Has click sobre la imagen que quieres que desaparesca)</p>
+		</div>
+		<div id="imagenes">
+			<img id="imagen1" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen2" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen3" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen4" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen5" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen6" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen7" src="./ninja.jpg" alt="ninja" width="200px">
+			<img id="imagen8" src="./ninja.jpg" alt="ninja" width="200px">
+		</div>
+		<button id="boton" class="btn">Restaurar</button>
+	</body>
